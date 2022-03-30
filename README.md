@@ -13,3 +13,18 @@
 - [Timber](https://github.com/JakeWharton/timber)
   - Android向けのロガーライブラリ
   - 参考：[ロガーライブラリ「Timber」のセットアップ&操作方法(Kotlin)](https://qiita.com/uhooi/items/4f9e41ea9aceaf5abf5b)
+
+## gradleのライブラリバージョン管理
+### `ext`で管理
+`ext`、Gradleによると`Extra Properties`のこと
+```
+ext {
+    nav_version = "2.3.5"
+}
+
+ext.nav_version = "2.3.5"
+
+dependencies {
+    implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
+}
+```
