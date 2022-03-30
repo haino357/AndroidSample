@@ -9,3 +9,7 @@
 
 <img src="picture/AndroidStudioバージョン_20220330.png" width="600">
 
+## 導入ライブラリ
+- [Timber](https://github.com/JakeWharton/timber)
+  - Android向けのロガーライブラリ
+  - 参考：[ロガーライブラリ「Timber」のセットアップ&操作方法(Kotlin)](https://qiita.com/uhooi/items/4f9e41ea9aceaf5abf5b)
