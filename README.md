@@ -9,6 +9,10 @@
 
 <img src="picture/AndroidStudioバージョン_20220330.png" width="600">
 
+## gitignoreの設定
+[gitignore.io](https://www.toptal.com/developers/gitignore)
+上記で`Android`、`AndroidStudio`で検索かけて出てきたものを追加。
+
 ## 導入ライブラリ
 ライブラリ記載場所：`build.gradle(app内)`
 下記内に記載する。
